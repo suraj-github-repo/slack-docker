@@ -1,3 +1,7 @@
-services: 
-  myapp:
-    build: /root/slack-docker/Dockerfile/
+version: '3.6'
+
+services:
+  FrontEnd:
+     image: react-app
+     ports:
+       - "3003:8000"
