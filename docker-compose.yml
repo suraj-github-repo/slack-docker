@@ -1,7 +1,7 @@
 version: '3.6'
-
 services:
-  FrontEnd:
-     image: react-app
+  reactapp:
+     image: my-react-app
      ports:
        - "3003:8000"
+
